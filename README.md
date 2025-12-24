@@ -1,8 +1,8 @@
-# Voice Acoustic Feature Extraction Project
+# Voice Acoustic Feature Extraction 
 
 
 ## Overview
-This project is focused on extracting, analyzing, and visualizing acoustic features from voice recordings of multiple patients. The goal is to process audio data to obtain quantitative measures of speech and voice characteristics for research or clinical analysis.
+This code is focused on extracting, analyzing, and visualizing acoustic features from voice recordings of multiple patients. The goal is to process audio data to obtain quantitative measures of speech and voice characteristics for research or clinical analysis.
 
 ## Main Steps
 
@@ -35,7 +35,7 @@ The CSV files can be reviewed as shown above
 
 ## Tools and Libraries Used
 
-This project uses the following main tools and libraries:
+This code uses the following main tools and libraries:
 
 - **pandas**: For data manipulation, tabular storage, and CSV export.
 - **numpy**: For efficient numerical operations and array handling.
