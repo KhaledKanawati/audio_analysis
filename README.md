@@ -20,8 +20,9 @@ This code is focused on extracting, analyzing, and visualizing acoustic features
 ## Key Files
 - `extract.ipynb`: Main notebook for feature extraction, summary, and visualization.
 - `extract2.ipynb`: Same as above but for the 40 audio samples.
-- `acoustic_features_all_patients.csv`: Combined features for all patients.
-- `acoustic_features_summary.csv`: Summary statistics.
+- `acoustic_features_all_patients.csv`: Combined features for the original 3 patients, extracted by section (early1, early2... per patient).
+- - `acoustic_features_all_patients_pipelined.csv`: Combined features for the 40 patients.
+- `acoustic_features_summary.csv`: Summary statistics for the voice recordings.
 - `pipelined recordings/`, `Voice samples 1/`, etc.: Folders containing audio files.
 - `voice analysis.ipynb`: Notebook for voice analysis and figurign out appropriate ranges for frequency and others.
 - `whisper.ipynb`: A failed attempt at trying to clean the voice data automatically using pyannote.
