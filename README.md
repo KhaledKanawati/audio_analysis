@@ -1,3 +1,4 @@
+# Voice Acoustic Feature Extraction Project
 
 
 ## Overview
@@ -44,9 +45,6 @@ This project uses the following main tools and libraries:
 - **seaborn**: For enhanced statistical data visualization and styled plots.
 - **scipy**: For signal processing utilities (e.g., peak detection, smoothing).
 - **Audacity Software**: For manually preprocessing the voice recordings to remove noise and extract only useful/relevant parts.
-
-# Voice Acoustic Feature Extraction Project
-
 
 ## Note:
 
