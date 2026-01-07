@@ -5,11 +5,10 @@ This project is focused on extracting, analyzing, and visualizing acoustic featu
 
 ## Main Steps
 
-0. **Voice Cleaning**: 
-   - Manual cleaning using Audacity to remove interviewer speech, background noise, and non-patient audio
+0. **Voice Cleaning**: (For the new 40 voice recordings)
    - **Automated speaker separation** using `whisperx_separation.ipynb` with WhisperX and pyannote.audio 3.4.0 for diarization-based speaker separation
-   - Different sections are kept separately and features extracted individually
-
+   - Manual cleaning after diarization using Audacity to remove interviewer speech, background noise, and non-patient audio that slipt through
+   - The original voice recordings were all filtered and cleaned manually on Audacity, makign each section its own file under the patient folder ande extracting the results for each file individually
 1. **Run Audio Diagnosis**: 
    - `voice analysis.ipynb`: Analyze original voice samples to determine appropriate frequency ranges
    - `voice_analysis_manual.ipynb`: Analyze cleaned_manual folder recordings for optimal extraction parameters
@@ -80,9 +79,9 @@ This project uses the following main tools and libraries:
 
 ## Processing Status
 
-- ✅ Original 3 patients: Fully processed with CSV outputs
-- ✅ 40 pipelined recordings: Features extracted to CSV
-- ✅ **cleaned_manual folder**: 40 manually cleaned recordings analyzed and extracted to Excel
+- Original 3 patients: Fully processed with CSV outputs
+- 40 pipelined recordings: Features extracted to CSV
+- ✅ **cleaned_manual folder**: 40 manually cleaned recordings analyzed and extracted to CSV
 - ⚙️ **whisperx_separation.ipynb**: Automated speaker separation available for batch processing
 
 ## Extraction Parameters
