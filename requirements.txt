@@ -4,3 +4,11 @@ torchaudio==2.1.0
 git+https://github.com/m-bain/whisperx.git
 pydub
 numpy
+pandas
+librosa
+praat-parselmouth
+matplotlib
+seaborn
+scipy
+openpyxl
+pyannote.audio==3.4.0
