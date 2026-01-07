@@ -81,8 +81,8 @@ This project uses the following main tools and libraries:
 
 - Original 3 patients: Fully processed with CSV outputs
 - 40 pipelined recordings: Features extracted to CSV
-- ✅ **cleaned_manual folder**: 40 manually cleaned recordings analyzed and extracted to CSV
-- ⚙️ **whisperx_separation.ipynb**: Automated speaker separation available for batch processing
+-  **cleaned_manual folder**: 40 manually cleaned recordings analyzed and extracted to CSV
+-  **whisperx_separation.ipynb**: Automated speaker separation available for batch processing
 
 ## Extraction Parameters
 
