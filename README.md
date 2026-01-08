@@ -41,7 +41,6 @@ This project is focused on extracting, analyzing, and visualizing acoustic featu
 ### Data Files
 - `acoustic_features_all_patients.csv`: Combined features for original 3 patients
 - `acoustic_features_cleaned_manual.csv`: Features for all 40 pipelined recordings
-- `acoustic_features_summary.csv`: Summary statistics
 - Individual patient files: `acoustic_features_patient1.csv`, etc.
 
 ### Audio Folders
